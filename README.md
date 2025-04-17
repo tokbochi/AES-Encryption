@@ -13,10 +13,10 @@ Make sure you have Python 3.x installed.
 
 Run the encryption or decryption script from the terminal:  
 
-Encryption: "python3 AES2.py e keySize inputFile"  
+Encryption: "python3 AES2.py e keyFile inputFile keySize"  
 Program should output the encrypted message for inputFile - "inputFile.enc"  
 
-Decryption: "python3 AES2.py d keySize inputFile.enc"  
+Decryption: "python3 AES2.py d keyFile inputFile.enc keySize"  
 Program should output the decrypted message for inputFile.enc - "inputFile.enc.dec"
 
 inputFile = plaintext file  
